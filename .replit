@@ -13,6 +13,3 @@ run = ["node", "index.js"]
 deploymentTarget = "autoscale"
 ignorePorts = false
 
-[[ports]]
-localPort = 3000
-externalPort = 80

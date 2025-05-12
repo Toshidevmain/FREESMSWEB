@@ -10,7 +10,7 @@ const mongoose = require('mongoose');
 const app = express();
 const server = http.createServer(app);
 const io = socketIo(server);
-const PORT = process.env.PORT || 3099;
+const PORT = process.env.PORT || 8080;
 
 mongoose.connect('mongodb+srv://toshidev0:zcode22107@dbtxt.3dxoaud.mongodb.net/?retryWrites=true&w=majority&appName=DBTXT', {
   useNewUrlParser: true,
